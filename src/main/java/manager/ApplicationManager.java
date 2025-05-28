@@ -21,6 +21,7 @@ public class ApplicationManager {
 
     public void init() {
         wd = new ChromeDriver();
+        logger.info("All tests runs in Chrome Browser");
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         wd.navigate().to("https://telranedu.web.app");

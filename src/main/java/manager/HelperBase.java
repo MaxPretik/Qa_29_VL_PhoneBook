@@ -15,7 +15,7 @@ import java.util.List;
 public class HelperBase {
     WebDriver wd;
 
-    Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
+    Logger logger = LoggerFactory.getLogger(HelperBase.class);
 
     public HelperBase(WebDriver wd) {
         this.wd = wd;
